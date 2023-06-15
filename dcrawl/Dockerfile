@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1-alpine3.18
 
 RUN apk --update add git
 RUN git clone https://github.com/kgretzky/dcrawl.git
